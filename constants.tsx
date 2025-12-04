@@ -7,15 +7,21 @@ import React from 'react';
 // ဥပမာ - မိမိပုံနာမည်က "my-photo.jpg" ဆိုရင် အောက်ကနေရာမှာ "./my-photo.jpg" လို့ ပြောင်းပေးပါ။
 // ==========================================
 
-// Profile ပုံ (အဓိက ပုံ)
-export const PROFILE_IMAGE = "./3.png"; 
+// ၁။ ပုံများကို အရင်ဆုံး Import လုပ်ပါ (အမည်တစ်ခုခု ပေးပါ)
+import profileImg from './3.png';
+import gallery1 from './1.png';
+import gallery2 from './2.png';
+import gallery3 from './3.png';
+import gallery4 from './4.png';
 
-// Gallery ပုံများ (အောက်ဆုံးနားက ပုံ ၃ ပုံ)
+// ၂။ ပြီးမှ Variable တွေကို ပြန်သုံးပါ
+export const PROFILE_IMAGE = profileImg;
+
 export const GALLERY_IMAGES = [
-  "./1.png", // ပုံ ၁
-  "./2.png",   // ပုံ ၂
-  "./3.png",  // ပုံ ၃
-  "./4.png"  // ပုံ ၃
+  gallery1,
+  gallery2,
+  gallery3,
+  gallery4
 ];
 
 export const PERSONAL_INFO = {
