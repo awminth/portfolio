@@ -36,7 +36,7 @@ export const PERSONAL_INFO = {
 export const EXPERIENCE: ExperienceItem[] = [
   {
     id: "toyota",
-    role: "Account Executive",
+    role: "Accountant",
     company: "Toyota",
     period: "Jul 2023 – Present",
     description: [
